@@ -14,3 +14,6 @@ SOURCES += ./bank_saving.cpp \
     ./stdafx.cpp
 FORMS += ./bank_saving.ui
 RESOURCES += bank_saving.qrc
+
+DISTFILES += \
+    $$PWD/icon.jpg

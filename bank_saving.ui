@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>bank_saving</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.jpg</normaloff>icon.jpg</iconset>
+  </property>
   <widget class="QWidget" name="central">
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -373,8 +377,8 @@
      <rect>
       <x>80</x>
       <y>240</y>
-      <width>40</width>
-      <height>12</height>
+      <width>61</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
@@ -439,6 +443,8 @@
      </property>
     </widget>
    </widget>
+   <zorder>splitter</zorder>
+   <zorder>splitter_2</zorder>
    <zorder>alaum</zorder>
    <zorder>label</zorder>
    <zorder>calculate</zorder>
@@ -449,15 +455,9 @@
    <zorder>label_7</zorder>
    <zorder>drawTime</zorder>
    <zorder>checkBox</zorder>
-   <zorder>money</zorder>
    <zorder>fixed</zorder>
    <zorder>label_2</zorder>
-   <zorder>rate</zorder>
-   <zorder>label_3</zorder>
-   <zorder>label_8</zorder>
    <zorder>label_10</zorder>
-   <zorder>label_11</zorder>
-   <zorder>textBrowser</zorder>
    <zorder>splitter_6</zorder>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
@@ -475,7 +475,7 @@
      <x>0</x>
      <y>0</y>
      <width>778</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
